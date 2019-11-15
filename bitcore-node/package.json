@@ -7,6 +7,6 @@
     "bitcore-lib": "0.13.19",
     "bitcore-node": "3.1.3",
     "insight-api": "0.4.3",
-    "insight-ui": "0.4.0"
+    "insight-ui-zs": "0.4.0"
   }
 }
