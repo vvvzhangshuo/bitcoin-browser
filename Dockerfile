@@ -20,7 +20,7 @@ EXPOSE 3001 3232 6667 8333 18333
 WORKDIR /root/bitcoin-node
 COPY bitcore-node ./
 RUN npm config set package-lock false && \
-  npm install && \
+  npm install
 
 
 RUN apt-get purge -y \
