@@ -21,7 +21,7 @@ WORKDIR /root/bitcoin-node
 COPY bitcore-node ./
 RUN npm config set package-lock false && \
   npm install && \
-  cat logo-insight.patch | patch -p1 -d node_modules/insight-ui
+
 
 RUN apt-get purge -y \
   g++ make python gcc && \
